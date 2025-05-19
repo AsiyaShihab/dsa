@@ -220,7 +220,7 @@ int main(){
     arr.getarray();
     arr.display();
     cout<<endl;
- /*   arr.insert();
+   arr.insert();
     arr.display();
     cout<<endl;
 arr.append();
@@ -254,6 +254,6 @@ arr.append();
  cin>>insert;
  arr.insertsort(insert);
  arr.display();
- arr.negonleft();*/
+ arr.negonleft();
  arr.display();
 }
