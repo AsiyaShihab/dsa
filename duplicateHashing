@@ -1,0 +1,32 @@
+#include <iostream>
+#include<vector>
+using namespace std;
+int main()
+{
+int size;
+
+cout<<"enter the size of the array "<<endl;
+cin>>size;
+vector<int>A(size);
+ cout<<"enter the elements of the array "<<endl;
+for(int i=0;i<size;i++){
+    cin>>A[i];
+}
+cout<<"enter largest element ";
+int large;
+cin>>large;
+vector<int>H(large+1,0);
+for(int i=0;i<size;i++){
+    H[A[i]]++;
+    
+    
+}
+for(int i=0;i<=large;i++){
+    if(H[i]>1)
+    cout<<i<<" repeats "<<H[i]<< " times ";
+}
+
+
+
+    return 0;
+}
