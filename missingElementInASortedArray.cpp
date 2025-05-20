@@ -20,6 +20,7 @@ for(int i=0;i<size;i++){
     }
     
 }
+ delete []A;
 
 
     return 0;
